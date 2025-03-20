@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import random
-import plotly.express as px
+#import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 from sklearn.model_selection import train_test_split
