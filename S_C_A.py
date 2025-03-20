@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import random
-#import plotly.express as px
+import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -10,7 +10,6 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 from sklearn.metrics import mean_squared_error
-from sklearn.metrics import median_absolute_error
 from sklearn.metrics import median_absolute_error
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.tree import DecisionTreeRegressor
